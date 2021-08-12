@@ -18,20 +18,12 @@ body {
     color: $font-color;
     position: relative;
     width: 100%;
-    align-items: center;
-}
-body::before{
     height: 100vh;
     background-image: url(../image/image-personal.jpg);
-    background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: cover;
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+    background-repeat: no-repeat;
 }
+
 @media (min-width: 1024px) {
     body::before {
         background-attachment: fixed;
@@ -327,10 +319,6 @@ h6 {
 @media (max-width: 768px) {
     #header {
         
-        background-position: right top;
-        .header{
-            width: 100%;
-        }
         h1 {
             font-size: 30px;
             align-items: center;
